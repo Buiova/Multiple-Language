@@ -1,17 +1,18 @@
-# Multiple language in website
+# Using multiple languages on the website.
 
-## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+## Multi-language feature with php easily and quickly
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- Create a lang file for the languages you will use on your website (each language is a separate file).
+- <?php
+$lang = array
+("variable" => "Equivalent in the language you made",
+"variable 2" => equivalent in your language" );
+?>
+(Do not put a comma at the end of the last word you translated.)
+- Find the word you translated on your site, remove the word and write <?php echo $lang['variable']?>.
+- Ready to use
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
