@@ -10,6 +10,6 @@
 - Ready to use
 
 
-    ```md
+    
     ![alt text](assets/images/code.png)
-    ```
+    
